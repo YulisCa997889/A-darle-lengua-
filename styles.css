@@ -1,0 +1,337 @@
+h1{
+    font-family: Helvetica;
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+}
+body {
+    color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color:rgb(228, 219, 220);
+}
+
+.logo{
+    width: 130px;
+    height: 130px;
+}
+
+.logo2{
+    width: 270px;
+    height: auto;
+}
+.navbar {
+    background-color: rgb(77, 5, 77); 
+    padding: 10px 20px;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Alinea los elementos del menú horizontalmente */
+}
+
+.navbar ul li {
+    margin: 0 10px; /* Espacio entre los elementos del menú */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 10px;
+
+}
+
+.navbar ul li a:hover {
+    color: rgb(211, 208, 19); /* Cambia el color al pasar el mouse */
+}
+
+.Foto1, .Foto2, .Foto6, .Foto5 {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    gap: 50px; 
+    flex-wrap: wrap; 
+    padding: 10px; 
+}
+
+.card {
+    width: 250px;
+    max-width: 250px;
+    margin: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgb(240, 204, 210);
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+    cursor: default; 
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow:  5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-2%);
+}
+.card img {
+    width: 100%;
+    height:  200px; 
+}
+.card .contenido {
+    padding: 10px;
+    text-align: center;
+}
+.yulis {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 400px;
+    float: left;
+    border: 20px solid rgb(212, 203, 204); 
+    border-radius: 30px;
+    margin-right: 0px;
+}
+.wrapper {
+    margin: 0px auto;
+    width: 80%;
+}
+
+.text-box{
+    color: black;
+}
+.text-box p{
+    font-size: 16px;
+}
+.final{
+    width: 400px;
+    height: auto;
+}
+textarea {
+    width: 250px;
+    margin-top: 8px; 
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 14px;
+}
+.submit {
+    background-color: rgb(158, 158, 185); 
+    color: black; 
+}
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: rgb(167, 30, 52); 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    bottom: 0;
+    border: 5px 10px;
+    padding: 10px 20px;
+}
+.footerContainer{
+    width: 100%;
+    padding: 100px 0px 40px 0px;
+}
+.socialIcons{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: black; 
+    padding: 10px;
+    margin-top: -10px;
+    width: 100%;
+}
+.socialIcons a i{
+    text-decoration: none; 
+    padding: 10px; 
+    background-color:white; 
+    margin: 10px; 
+    border-radius: 50%;
+}
+.socialIcons a:hover{
+    background-color: black; 
+    transition: 0.5s;
+}
+.footerBottom{
+    background-color: rgb(167, 30, 52); 
+    padding: 5px 10px;
+    text-align: center; 
+}
+.footerBottom p{
+    color: white;
+    font-size: 12px 
+}
+
+.dif{
+    padding: 25px 50px 0px 90px; 
+    text-align: left;
+}
+.dif2{
+    padding: 25px 50px 0px 50px; 
+    text-align: left;
+}
+.caja1{
+    background-color: rgb(126, 238, 126);
+    width: 70%;
+    max-width: 800px; 
+    margin: 0 auto; 
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 8px;
+}
+.caja2{
+    background-color: rgb(117, 194, 224);
+    width: 70%; 
+    max-width: 800px;
+    margin: 0 auto; 
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 8px;
+}
+.caja3{
+    background-color: rgb(212, 160, 233);
+    width: 70%; 
+    max-width: 800px;
+    margin: 0 auto; 
+    border: 2px solid #ccc;
+    padding: 20px; 
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.caja4{
+    background-color: rgb(236, 227, 90);
+    width: 70%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 8px;
+}
+.caja5{
+    background-color: rgb(212, 147, 145);
+    width: 70%;
+    max-width: 800px; 
+    margin: 0 auto; 
+    border: 2px solid #ccc; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 8px;
+}
+
+
+
+.container1, .container2, .container3, .container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.images, .images2, .images3, .images4{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.image{
+    text-align: center;
+    margin: 10px;
+    border: 2px solid  rgb(236, 226, 226); /* Borde alrededor de cada imagen y pie de página */
+    border-radius: 6px; /* Bordes redondeados */
+    padding: 10px;
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total */
+    background-color: rgb(236, 226, 226);
+    flex: 1 0 18%;
+}
+.container1 img, .container2 img, .container3 img, .container4 img{
+    width: 200px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    height: 150px;
+    border-radius: 6px;  /* Hace que las imágenes sean circulares */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #09427e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px 470px 20px 470px;
+}
+form label {
+    margin: 10px 0 5px;
+    align-self: flex-start;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+form button {
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #004d40;
+}
+
+.mi-vinculo {
+    color: white; /* Color del texto del vínculo */
+    text-decoration: none; /* Quita el subrayado por defecto */
+    padding: 10px 20px;
+    background-color: #00796b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mi-vinculo:hover {
+    color: #09463f; /* Color del texto cuando se pasa el ratón por encima */
+    text-decoration: underline; /* Añade subrayado al pasar el ratón por encima */
+}
+.secundaria{
+    background-color: rgb(170, 148, 152); 
+}
+.Foto6{
+    border-radius: 10px; 
+}
